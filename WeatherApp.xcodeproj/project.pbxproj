@@ -11,6 +11,7 @@
 		CD794A79277B154B00467154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD794A78277B154B00467154 /* ContentView.swift */; };
 		CD794A7B277B154B00467154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD794A7A277B154B00467154 /* Assets.xcassets */; };
 		CD794A7E277B154B00467154 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD794A7D277B154B00467154 /* Preview Assets.xcassets */; };
+		CD794A86277B1BC300467154 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD794A85277B1BC300467154 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD794A78277B154B00467154 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD794A7A277B154B00467154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD794A7D277B154B00467154 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD794A85277B1BC300467154 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CD794A75277B154B00467154 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				CD794A84277B1BA400467154 /* Manager */,
 				CD794A76277B154B00467154 /* WeatherAppApp.swift */,
 				CD794A78277B154B00467154 /* ContentView.swift */,
 				CD794A7A277B154B00467154 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CD794A7D277B154B00467154 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD794A84277B1BA400467154 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD794A85277B1BC300467154 /* Location.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD794A79277B154B00467154 /* ContentView.swift in Sources */,
+				CD794A86277B1BC300467154 /* Location.swift in Sources */,
 				CD794A77277B154B00467154 /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
